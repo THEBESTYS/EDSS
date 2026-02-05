@@ -104,7 +104,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { level: 'Beginner (A1-A2)', title: 'Global Foundation', desc: 'Pre-Basic ~ Basic 3. 업무의 기초적 소통 및 이메일 독해 역량 확보.' },
-              { level: 'Intermediate (B1)', title: 'Strategic Business', desc: 'Intermediate 1 ~ 3. 실무 회의 주도 및 능숙한 커뮤니케이션 완성.' },
+              { level: 'Intermediate (B1-B2)', title: 'Strategic Business', desc: 'Intermediate 1 ~ 3. 실무 회의 주도 및 능숙한 커뮤니케이션 완성.' },
               { level: 'Advanced (B2-C1)', title: 'Executive Mastery', desc: 'Advanced 1 ~ 3. 전략적 협상 및 고난도 의사결정 영어 구사.' }
             ].map((card, i) => (
               <div key={i} className="group relative bg-slate-50 p-12 rounded-[2rem] hover:bg-[#034EA2] transition-all duration-500 overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-2">
