@@ -1,0 +1,8 @@
+{
+  "name": "English Discoveries Corporate Solution",
+  "description": "Premium AI-powered English education platform for Samsung and global enterprises, featuring ETS-validated curriculum and comprehensive admin management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
